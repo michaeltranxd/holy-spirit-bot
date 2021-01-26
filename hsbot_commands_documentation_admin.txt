@@ -1,0 +1,52 @@
+add - Adds Đội to the list
+  args: <@doi-role> 
+  ex: !add @Doi1
+
+finish - Update the Đội's time for a particular leg (This will post the leaderboard in the leaderboard-and-news channel)
+  args: <@doi-role> <leg number> <time formatted hr:min:sec> 
+  ex: !finish @Doi1 1 12:47:27
+
+help - List all of my commands or info about a specific command
+  args: <command name>
+  ex: !help
+  ex2: !help finish
+
+hint - Cac em will use this command to requests help from a Top Agent. This will ping us for help and the doi that used this command
+  ex: !hint
+
+inspirationalquote - Inspirational quote for staying #blessed
+  ex: !inspirationalquote
+
+leaderboard - Displays current leaderboard standings for each Đội
+  args: overall/<leg number>
+  ex: !leaderboard overall
+  ex2: !leaderboard 1
+
+list - Lists all Đội that has been added
+  ex: !list
+
+listroles - List the roles and their ids (for internal purposes)
+  ex: !listroles
+
+remove-all - Removes all Đội from the list
+  ex: !remove-all
+
+remove - Removes Đội from the list
+  args: <@doi-role>
+  ex: !remove @Doi1
+
+save - Saves Độis to txt file (internally saved if ever crashed, but run this occasionally)
+  ex: !save
+
+say - The bot will parrot whatever you say in a channel :)
+  args: <channel-id> <message> 
+  ex: !say 742243914164994089 Amen!
+
+unfinish-all - Reset all Đội's time to 00:00:00 overall or particular leg
+  args: overall/<leg number>
+  ex: !unfinish overall
+  ex2: !unfinish 1
+
+unfinish - Reset the Đội's time for a particular leg to 00:00:00
+  usage: <@doi-role> <leg number>
+  ex: !unfinish @Doi1 1

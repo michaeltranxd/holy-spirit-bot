@@ -1,0 +1,35 @@
+help - List all of my commands or info about a specific command
+  args: <command name>
+  ex: !help
+  ex2: !help finish
+
+hint - Requests help from a Top Agent
+  ex: !hint
+
+inspirationalquote - Inspirational quote for staying #blessed
+  ex: !inspirationalquote
+
+leaderboard - Displays current leaderboard standings for each Đội
+  args: overall/<leg number>
+  ex: !leaderboard overall
+  ex2: !leaderboard 1
+
+Hello các em! My name is Tr. Michael and I would like to introduce to you all our very own top agent assistant, @Holy Spirit Bot#8753! Our lovely assistant will help us along the journey and has useful commands, so please familiarize yourself with them. Please be patient and respectful to our assistant! :). See you all at 12:45 CST!
+
+```
+help - List all of my commands or info about a specific command
+  args: <command name>
+  ex: !help
+  ex2: !help finish
+
+hint - Requests help from Top Agent HQ; Use if your lead agent has went MIA
+  ex: !hint
+
+inspirationalquote - Inspirational quote for staying #blessed
+  ex: !inspirationalquote
+
+leaderboard - Displays current leaderboard standings for each Đội
+  args: overall/<leg number>
+  ex: !leaderboard overall
+  ex2: !leaderboard 1
+```

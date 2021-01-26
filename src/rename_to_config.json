@@ -1,0 +1,8 @@
+{
+  "prefix": "!",
+  "token": "insert-token-here",
+  "vcTimeout": 5,
+  "roles_admin": ["insert-admin-role-id"],
+  "everyone_channel": "insert-everyone-channel-id",
+  "channel_for_hint_command": "insert-channel--id-to-notify-for-hints"
+}
